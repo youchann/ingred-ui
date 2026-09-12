@@ -27,7 +27,7 @@ jobs:
       - name: Use Ruby 2.6
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: 2.7.8
       - name: install github_changelog_generate
         run: gem install github_changelog_generator
       - name: Get the version
